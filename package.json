@@ -1,7 +1,6 @@
 {
   "name": "portfolio-actualizado",
   "version": "1.0.0",
-  "main": "index.js",
   "repository": "https://github.com/MarianoAguilar13/portfolio-actualizado.git",
   "author": "Mariano Aguilar <mariano_aguilar_13@hotmail.com>",
   "license": "MIT",
