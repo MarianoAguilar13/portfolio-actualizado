@@ -1,0 +1,17 @@
+{
+  "name": "portfolio-actualizado",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/MarianoAguilar13/portfolio-actualizado.git",
+  "author": "Mariano Aguilar <mariano_aguilar_13@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel serve ./index.html",
+    "build": "parcel build ./index.html",
+    "dev": "parcel serve ./index.html"
+  },
+  "dependencies": {
+    "parcel": "^2.10.0",
+    "sweetalert2": "^11.7.32"
+  }
+}

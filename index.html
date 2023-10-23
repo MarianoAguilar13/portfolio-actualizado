@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="http://drive.google.com/uc?export=view&id=1USbpPNnGewGTRdpLQqCWFgXTH5S-zMn7"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <script defer type="module" src="./index.js"></script>
+    <script defer src="./skills.js"></script>
+    <script defer src="./menu-hambur.js"></script>
+    <script defer src="./skills-mobile.js"></script>
+
+    <title>Mariano Dev</title>
+  </head>
+  <body>
+    <a href="#header">
+      <button class="arrow-sky">
+        <img
+          class="arrow-sky__img"
+          src="http://drive.google.com/uc?export=view&id=1GIJLsPNeYNnZ2eow5UlHHNwgN0383yMF"
+          alt="Al cielo"
+        />
+      </button>
+    </a>
+
+    <!--header-->
+    <div id="header" class="header">
+      <div class="header__visible">
+        <div class="header__visible__logo-container">
+          <img
+            class="header__visible__logo-container__logo"
+            src="http://drive.google.com/uc?export=view&id=1He-G_xTJdNuKnOCfjbd_Yn5eWN9aXcSA"
+            alt="Logo Mariano Dev"
+          />
+        </div>
+        <div class="header__links">
+          <a href="#sobre-mi">
+            <button class="header__links__link">Sobre mí</button>
+          </a>
+          <a href="#skills">
+            <button class="header__links__link">Habilidades</button>
+          </a>
+          <a href="#projects">
+            <button class="header__links__link">Proyectos</button>
+          </a>
+          <a href="#contacto">
+            <button class="header__links__link cerrar-sesion">Contacto</button>
+          </a>
+        </div>
+        <div class="header__visible__boton-desplegar-container">
+          <button class="header__visible__boton-desplegar">
+            <div class="header__visible__boton-desplegar__barras"></div>
+            <div class="header__visible__boton-desplegar__barras"></div>
+            <div class="header__visible__boton-desplegar__barras"></div>
+          </button>
+        </div>
+      </div>
+      <div class="ventana-links">
+        <button class="ventana-links__boton-cerrar">x</button>
+        <a class="ventana-links__link link-uno" href="#sobre-mi">Sobre mí</a>
+        <a class="ventana-links__link link-dos" href="#skills">Habilidades</a>
+        <a class="ventana-links__link link-tres" href="#projects">Proyectos</a>
+        <a
+          class="ventana-links__link link-cuatro cerrar-sesion-ventana"
+          href="#contacto"
+          >Contacto</a
+        >
+      </div>
+    </div>
+
+    <!--Hero-->
+    <main class="hero-container">
+      <h1 class="hero-container__title">Portfolio Mariano Aguilar</h1>
+      <!--  <video
+        autoplay
+        loop
+        muted
+        src="https://drive.google.com/file/d/1BECDw7HHPyl2KIL_qaSK6IZ9k7M2bt2F/view?usp=drive_link"
+        class="hero-container__video"
+      ></video> -->
+      <!--
+          <iframe
+        class="hero-container__video video-frame"
+        src="https://www.youtube.com/embed/eHoy_0R9s-Q?autoplay=1&mute=1&loop=1&controls=0"
+        frameborder="0"
+        allowfullscreen
+      >
+      </iframe>
+
+       <iframe
+        class="hero-container__video video-frame"
+        src="https://drive.google.com/file/d/1BECDw7HHPyl2KIL_qaSK6IZ9k7M2bt2F/preview"
+        allow="autoplay"
+      ></iframe>
+      -->
+      <iframe
+        class="hero-container__video video-frame"
+        src="https://www.youtube.com/embed/eHoy_0R9s-Q?autoplay=1&mute=1&loop=1&controls=0&playlist=eHoy_0R9s-Q"
+        frameborder="0"
+        allowfullscreen
+      >
+      </iframe>
+    </main>
+
+    <!--Sobre mi-->
+    <section id="sobre-mi" class="sobre-mi">
+      <div class="sobre-mi__container">
+        <div class="sobre-mi__container__title-container">
+          <h2 class="sobre-mi__container__title-container__title">Sobre mi</h2>
+        </div>
+        <div class="sobre-mi__container__info-container">
+          <div
+            class="sobre-mi__container__info-container__text-title-container"
+          >
+            <h3
+              class="sobre-mi__container__info-container__text-title-container__title"
+            >
+              ¿Quién soy?
+            </h3>
+            <p
+              class="sobre-mi__container__info-container__text-title-container__texto"
+            >
+              Hola, mi nombre es Mariano Aguilar, vivo en Baradero (Bs.
+              As.-Argentina). Actualmente terminando la carrera de desarrollo
+              web Fullstack de Apx, en último año de analista en informática en
+              UNSADA y tercer año de licenciatura en informática en UNSADA. Me
+              encanta la programación y cada día quiero aprender más, para
+              mejorar mis habilidades y poder crear los proyectos que me
+              proponga.
+            </p>
+          </div>
+          <img
+            class="sobre-mi__container__info-container__mi-imagen"
+            src="http://drive.google.com/uc?export=view&id=1HY_g2kDWh5T1AJM3HunZGdUOoxPrxIui"
+            alt="Foto de Mariano"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!--Habilidades-->
+    <section id="skills" class="skills">
+      <div class="skills__container">
+        <h2 class="skills__container__title">Habilidades</h2>
+        <div class="skills__container__flechitas-skills">
+          <img
+            class="skills__container__anterior-skills"
+            src="http://drive.google.com/uc?export=view&id=1tsvj5sgE3N5eH-2stV829f1b55fV3Ezk"
+            alt="siguiente"
+          />
+          <div class="skills__container__carrucel">
+            <div class="skills__container__two-cards">
+              <div class="card-skill">
+                <img
+                  class="card-skill__img"
+                  src="http://drive.google.com/uc?export=view&id=1MgGbh_AuiQrelae06cT8KfP-HmqLvsEZ"
+                  alt="Imagen de habilidades"
+                />
+                <h4 class="card-skill__title">Html</h4>
+                <div class="card-skill__description-container">
+                  <p class="card-skill__description-container__description">
+                    Con mis conocimientos en HTML, puedo estructurar el
+                    contenido de las páginas y app web, como se observa en mis
+                    proyectos del portfolio, que junto a CSS y JS, llenan de
+                    funcionalidad y dan vida a estos proyectos.
+                  </p>
+                </div>
+              </div>
+              <div class="card-skill">
+                <img
+                  class="card-skill__img"
+                  src="http://drive.google.com/uc?export=view&id=1SjoK_SfqrCJ04u9Dd-PULKIZJzyVq4lZ"
+                  alt="Imagen de habilidades"
+                />
+                <h4 class="card-skill__title">Css</h4>
+                <div class="card-skill__description-container">
+                  <p class="card-skill__description-container__description">
+                    Con mis conocimientos actuales en CSS puedo replicar los
+                    diseños que me propongan y crear estilos muy variados, esto
+                    me permite que el diseño sea del agrado del cliente y los
+                    usuarios.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="skills__container__two-cards">
+              <div class="card-skill">
+                <img
+                  class="card-skill__img"
+                  src="http://drive.google.com/uc?export=view&id=1SFevxv8ag7SrjJwO1pq0eoB8F716tw7Q"
+                  alt="Imagen de habilidades"
+                />
+                <h4 class="card-skill__title">JavaScript</h4>
+                <div class="card-skill__description-container">
+                  <p class="card-skill__description-container__description">
+                    Tengo conocimientos sobre JavaScript, el cual me permiten
+                    crear web-apps y páginas web dinámicas.
+                  </p>
+                </div>
+              </div>
+              <div class="card-skill">
+                <img
+                  class="card-skill__img"
+                  src="http://drive.google.com/uc?export=view&id=1vohZ3F62-heI1N_XUWIhvOH6DIHn-oyf"
+                  alt="Imagen de habilidades"
+                />
+                <h4 class="card-skill__title">TypeScript</h4>
+                <div class="card-skill__description-container">
+                  <p class="card-skill__description-container__description">
+                    Manejo del superset de JavaScript, que esencialmente añade
+                    tipos estáticos y objetos basados en clases, añadiendo un
+                    mayor control dotándolo de un typado fuerte para prevenir
+                    errores.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="skills__container__two-cards">
+              <div class="card-skill">
+                <img
+                  class="card-skill__img"
+                  src="http://drive.google.com/uc?export=view&id=1v3Jip6kF3CCeJEldTZIdIWK7ZsjKCbrz"
+                  alt="Imagen de habilidades"
+                />
+                <h4 class="card-skill__title">React</h4>
+                <div class="card-skill__description-container">
+                  <p class="card-skill__description-container__description">
+                    Tengo conocimientos en React, el cual es una librería que me
+                    permite crear componentes para reutilizarlos en toda la app,
+                    el cual mejora mucho el rendimiento de las web-apps, una de
+                    las librerías mas utilizadas en la actualidad.
+                  </p>
+                </div>
+              </div>
+              <div class="card-skill">
+                <img
+                  class="card-skill__img"
+                  src="http://drive.google.com/uc?export=view&id=12x-HV78X64rIydYo16TTjGAI1-n9IRL9"
+                  alt="Imagen de habilidades"
+                />
+                <h4 class="card-skill__title">Node.js</h4>
+                <div class="card-skill__description-container">
+                  <p class="card-skill__description-container__description">
+                    Con la tecnología Node.js, puedo crear el backend de las
+                    app-web y páginas webs dinámica, utilizando express, sql y
+                    la estructura de REST-API.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="skills__container__two-cards">
+              <div class="card-skill">
+                <img
+                  class="card-skill__img"
+                  src="http://drive.google.com/uc?export=view&id=1tVYjUmiZaYnibl7IaL_I1w-PePkPjo0r"
+                  alt="Imagen de habilidades"
+                />
+                <h4 class="card-skill__title">PostgreSQL</h4>
+                <div class="card-skill__description-container">
+                  <p class="card-skill__description-container__description">
+                    Conocimientos sobre SQL, en especial en Postgre, creación de
+                    bases de datos y consultas de SQL, también manejo de ORM
+                    como sequelize, abierto a aprender otros motores de BD y
+                    ORMS.
+                  </p>
+                </div>
+              </div>
+              <div class="card-skill">
+                <img
+                  style="background-color: whitesmoke; border-radius: 50%"
+                  class="card-skill__img"
+                  src="http://drive.google.com/uc?export=view&id=1TTZVaLOkatLv_FqGMk3tJDpd1i0PmNo1"
+                  alt="Imagen de habilidades"
+                />
+                <h4 class="card-skill__title">Next.js</h4>
+                <div class="card-skill__description-container">
+                  <p class="card-skill__description-container__description">
+                    Next.js es un potente framework web que se ha convertido en
+                    una elección popular entre los desarrolladores web para
+                    crear aplicaciones web modernas y eficientes gracias a su
+                    versatilidad.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img
+            class="skills__container__siguiente-skills"
+            src="http://drive.google.com/uc?export=view&id=1tsvj5sgE3N5eH-2stV829f1b55fV3Ezk"
+            alt="siguiente"
+          />
+        </div>
+      </div>
+      <div class="skills__container-mobile">
+        <h2 class="skills__container__title-mobile">Habilidades</h2>
+        <div class="skills__container__flechitas-skills-mobile">
+          <img
+            class="skills__container__anterior-skills-mobile"
+            src="http://drive.google.com/uc?export=view&id=1tsvj5sgE3N5eH-2stV829f1b55fV3Ezk"
+            alt="siguiente"
+          />
+          <div class="skills__container__carrucel-mobile">
+            <div class="card-skill-mobile">
+              <img
+                class="card-skill__img-mobile"
+                src="http://drive.google.com/uc?export=view&id=1MgGbh_AuiQrelae06cT8KfP-HmqLvsEZ"
+                alt="Imagen de habilidades"
+              />
+              <h4 class="card-skill__title-mobile">Html</h4>
+              <div class="card-skill__description-container-mobile">
+                <p
+                  class="card-skill__description-container__description-mobile"
+                >
+                  Con mis conocimientos en HTML, puedo estructurar el contenido
+                  de las páginas y app web, como se observa en mis proyectos del
+                  portfolio, que junto a CSS y JS, llenan de funcionalidad y dan
+                  vida a estos proyectos.
+                </p>
+              </div>
+            </div>
+            <div class="card-skill-mobile">
+              <img
+                class="card-skill__img-mobile"
+                src="http://drive.google.com/uc?export=view&id=1SjoK_SfqrCJ04u9Dd-PULKIZJzyVq4lZ"
+                alt="Imagen de habilidades"
+              />
+              <h4 class="card-skill__title-mobile">Css</h4>
+              <div class="card-skill__description-container-mobile">
+                <p
+                  class="card-skill__description-container__description-mobile"
+                >
+                  Con mis conocimientos actuales en CSS puedo replicar los
+                  diseños que me propongan y crear estilos muy variados, esto me
+                  permite que el diseño sea del agrado del cliente y los
+                  usuarios.
+                </p>
+              </div>
+            </div>
+            <div class="card-skill-mobile">
+              <img
+                class="card-skill__img-mobile"
+                src="http://drive.google.com/uc?export=view&id=1SFevxv8ag7SrjJwO1pq0eoB8F716tw7Q"
+                alt="Imagen de habilidades"
+              />
+              <h4 class="card-skill__title-mobile">JavaScript</h4>
+              <div class="card-skill__description-container-mobile">
+                <p
+                  class="card-skill__description-container__description-mobile"
+                >
+                  Tengo conocimientos sobre JavaScript, el cual me permiten
+                  crear web-apps y páginas web dinámicas.
+                </p>
+              </div>
+            </div>
+            <div class="card-skill-mobile">
+              <img
+                class="card-skill__img-mobile"
+                src="http://drive.google.com/uc?export=view&id=1vohZ3F62-heI1N_XUWIhvOH6DIHn-oyf"
+                alt="Imagen de habilidades"
+              />
+              <h4 class="card-skill__title-mobile">TypeScript</h4>
+              <div class="card-skill__description-container-mobile">
+                <p
+                  class="card-skill__description-container__description-mobile"
+                >
+                  Manejo del superset de JavaScript, que esencialmente añade
+                  tipos estáticos y objetos basados en clases, añadiendo un
+                  mayor control dotándolo de un typado fuerte para prevenir
+                  errores.
+                </p>
+              </div>
+            </div>
+
+            <div class="card-skill-mobile">
+              <img
+                class="card-skill__img-mobile"
+                src="http://drive.google.com/uc?export=view&id=1v3Jip6kF3CCeJEldTZIdIWK7ZsjKCbrz"
+                alt="Imagen de habilidades"
+              />
+              <h4 class="card-skill__title-mobile">React</h4>
+              <div class="card-skill__description-container-mobile">
+                <p
+                  class="card-skill__description-container__description-mobile"
+                >
+                  Tengo conocimientos en React, el cual es una librería que me
+                  permite crear componentes para reutilizarlos en toda la app,
+                  el cual mejora mucho el rendimiento de las web-apps, una de
+                  las librerías mas utilizadas en la actualidad.
+                </p>
+              </div>
+            </div>
+            <div class="card-skill-mobile">
+              <img
+                class="card-skill__img-mobile"
+                src="http://drive.google.com/uc?export=view&id=12x-HV78X64rIydYo16TTjGAI1-n9IRL9"
+                alt="Imagen de habilidades"
+              />
+              <h4 class="card-skill__title-mobile">Node.js</h4>
+              <div class="card-skill__description-container-mobile">
+                <p
+                  class="card-skill__description-container__description-mobile"
+                >
+                  Con la tecnología Node.js, puedo crear el backend de las
+                  app-web y páginas webs dinámica, utilizando express, sql y la
+                  estructura de REST-API.
+                </p>
+              </div>
+            </div>
+
+            <div class="card-skill-mobile">
+              <img
+                class="card-skill__img-mobile"
+                src="http://drive.google.com/uc?export=view&id=1tVYjUmiZaYnibl7IaL_I1w-PePkPjo0r"
+                alt="Imagen de habilidades"
+              />
+              <h4 class="card-skill__title-mobile">PostgreSQL</h4>
+              <div class="card-skill__description-container-mobile">
+                <p
+                  class="card-skill__description-container__description-mobile"
+                >
+                  Conocimientos sobre SQL, en especial en Postgre, creación de
+                  bases de datos y consultas de SQL, también manejo de ORM como
+                  sequelize, abierto a aprender otros motores de BD y ORMS.
+                </p>
+              </div>
+            </div>
+            <div class="card-skill-mobile">
+              <img
+                style="background-color: whitesmoke; border-radius: 50%"
+                class="card-skill__img-mobile"
+                src="http://drive.google.com/uc?export=view&id=1TTZVaLOkatLv_FqGMk3tJDpd1i0PmNo1"
+                alt="Imagen de habilidades"
+              />
+              <h4 class="card-skill__title-mobile">Next.js</h4>
+              <div class="card-skill__description-container-mobile">
+                <p
+                  class="card-skill__description-container__description-mobile"
+                >
+                  Next.js es un potente framework web que se ha convertido en
+                  una elección popular entre los desarrolladores web para crear
+                  aplicaciones web modernas y eficientes gracias a su
+                  versatilidad.
+                </p>
+              </div>
+            </div>
+          </div>
+          <img
+            class="skills__container__siguiente-skills-mobile"
+            src="http://drive.google.com/uc?export=view&id=1tsvj5sgE3N5eH-2stV829f1b55fV3Ezk"
+            alt="siguiente"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!--Proyectos-->
+    <section id="projects" class="projects">
+      <div class="projects__container">
+        <h3 class="projects__container__title">Proyectos</h3>
+        <div class="projects__container__flechitas-carrusell">
+          <img
+            class="projects__container__anterior"
+            src="http://drive.google.com/uc?export=view&id=1tsvj5sgE3N5eH-2stV829f1b55fV3Ezk"
+            alt="siguiente"
+          />
+
+          <div class="projects__container__carrucel-container">
+            <div class="card-project__container">
+              <div class="card-project__container__img-link-container">
+                <iframe
+                  class="card-project__container__img-link-container__img video-frame"
+                  src="https://www.youtube.com/embed/1wtC2u5doK0?loop=1&autoplay=1&mute=1&controls=0&playlist=1wtC2u5doK0"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                >
+                </iframe>
+                <a
+                  class="card-project__container__img-link-container__link"
+                  href="https://ecommerce-one-fawn.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Link de la página</a
+                >
+              </div>
+              <div class="card-project__container__info-title-container">
+                <h4
+                  class="card-project__container__info-title-container__title"
+                >
+                  E-commerce
+                </h4>
+                <p class="card-project__container__info-title-container__info">
+                  Es un e-commerce, creado con React, Node.js y Next.js, para
+                  probarla utilizar un mail válido, una cuenta de mercado pago
+                  con user test que utiliza dinero ficticio y pagar con tarjetas
+                  con dinero ficticio, estas se encuentran en la api de
+                  mercadopago.
+                </p>
+              </div>
+            </div>
+            <div class="card-project__container">
+              <div class="card-project__container__img-link-container">
+                <iframe
+                  class="card-project__container__img-link-container__img video-frame"
+                  src="https://www.youtube.com/embed/qy7Bu0Hdzc8?autoplay=1&mute=1&loop=1&controls=0&playlist=qy7Bu0Hdzc8"
+                  frameborder="0"
+                  allowfullscreen
+                >
+                </iframe>
+                <a
+                  class="card-project__container__img-link-container__link"
+                  href="https://app-pets-mariano.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Link de la página</a
+                >
+              </div>
+              <div class="card-project__container__info-title-container">
+                <h4
+                  class="card-project__container__info-title-container__title"
+                >
+                  App mascotas perdidas
+                </h4>
+                <p class="card-project__container__info-title-container__info">
+                  Es una app-web creada con React y Next.js en el front y con
+                  Node.js en el back, esta app nos permite subir nuestras
+                  mascotas perdidas mediando geolocalización, también permite
+                  observar las mascotas perdidas cerca tuyo y reportarlas.
+                </p>
+              </div>
+            </div>
+            <div class="card-project__container">
+              <div class="card-project__container__img-link-container">
+                <iframe
+                  class="card-project__container__img-link-container__img video-frame"
+                  src="https://www.youtube.com/embed/iMFoLqNoL44?autoplay=1&mute=1&loop=1&controls=0&playlist=iMFoLqNoL44"
+                  frameborder="0"
+                  allowfullscreen
+                >
+                </iframe>
+                <a
+                  class="card-project__container__img-link-container__link"
+                  href="https://registro-contable.onrender.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Link de la página</a
+                >
+              </div>
+              <div class="card-project__container__info-title-container">
+                <h4
+                  class="card-project__container__info-title-container__title"
+                >
+                  Registro de deuda de clientes
+                </h4>
+                <p class="card-project__container__info-title-container__info">
+                  Este es un proyecto Freelance que realice para un cliente, que
+                  necesitaba de manera local tener un programa que le permita
+                  almacenar las deudas de los clientes en una base de datos,
+                  para que pueda registrar los pago que iban realizando.
+                </p>
+              </div>
+            </div>
+            <div class="card-project__container">
+              <div class="card-project__container__img-link-container">
+                <iframe
+                  class="card-project__container__img-link-container__img video-frame"
+                  src="https://www.youtube.com/embed/6O6dPsu5Nxk?autoplay=1&mute=1&loop=1&controls=0&playlist=6O6dPsu5Nxk"
+                  frameborder="0"
+                  allowfullscreen
+                >
+                </iframe>
+                <a
+                  class="card-project__container__img-link-container__link"
+                  href="https://piedra-papel-tijera-online-h78d.onrender.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Link de la página</a
+                >
+              </div>
+              <div class="card-project__container__info-title-container">
+                <h4
+                  class="card-project__container__info-title-container__title"
+                >
+                  Piedra Papel o Tijeras Online
+                </h4>
+                <p class="card-project__container__info-title-container__info">
+                  Este proyecto es una versión del piedra papel o tijeras, pero
+                  online, utilizando como base de datos Firebase, ya que esta
+                  nos provee de una bd no sql y una bd real time, necesaria para
+                  que los jugadores jueguen a tiempo real
+                </p>
+              </div>
+            </div>
+            <div class="card-project__container">
+              <div class="card-project__container__img-link-container">
+                <iframe
+                  class="card-project__container__img-link-container__img video-frame"
+                  src="https://www.youtube.com/embed/26XDNm-QO7s?autoplay=1&mute=1&loop=1&controls=0&playlist=26XDNm-QO7s"
+                  frameborder="0"
+                  allowfullscreen
+                >
+                </iframe>
+                <a
+                  class="card-project__container__img-link-container__link"
+                  href="https://piedra-papel-tijera-losk.onrender.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Link de la página</a
+                >
+              </div>
+              <div class="card-project__container__info-title-container">
+                <h4
+                  class="card-project__container__info-title-container__title"
+                >
+                  Piedra, papel o tijera
+                </h4>
+                <p class="card-project__container__info-title-container__info">
+                  Es el juego tradicional de piedra, papel o tijera, podremos
+                  realizar las partidas que queramos enfrentándonos contra la
+                  computadora. Podremos ver el historial de victorias e incluso
+                  reiniciarlo para comenzar de nuevo.
+                </p>
+              </div>
+            </div>
+            <div class="card-project__container">
+              <div class="card-project__container__img-link-container">
+                <iframe
+                  class="card-project__container__img-link-container__img video-frame"
+                  src="https://www.youtube.com/embed/GHnqdJj6ARA?autoplay=1&mute=1&loop=1&controls=0&playlist=GHnqdJj6ARA"
+                  frameborder="0"
+                  allowfullscreen
+                >
+                </iframe>
+                <a
+                  class="card-project__container__img-link-container__link"
+                  href="https://marianoaguilar13.github.io/task-list-web-app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Link de la página</a
+                >
+              </div>
+              <div class="card-project__container__info-title-container">
+                <h4
+                  class="card-project__container__info-title-container__title"
+                >
+                  To Do List
+                </h4>
+                <p class="card-project__container__info-title-container__info">
+                  Una web-app que nos permite crear tareas pendientes, estas
+                  tareas se pueden marcar como realizadas o borrar cuando ya no
+                  se las necesita.
+                </p>
+              </div>
+            </div>
+            <div class="card-project__container">
+              <div class="card-project__container__img-link-container">
+                <iframe
+                  class="card-project__container__img-link-container__img video-frame"
+                  src="https://www.youtube.com/embed/OfHyMdxz8WU?autoplay=1&mute=1&loop=1&controls=0&playlist=OfHyMdxz8WU"
+                  frameborder="0"
+                  allowfullscreen
+                >
+                </iframe>
+                <a
+                  class="card-project__container__img-link-container__link"
+                  href="https://marianoaguilar13.github.io/Mi-Portfolio/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Link de la página</a
+                >
+              </div>
+              <div class="card-project__container__info-title-container">
+                <h4
+                  class="card-project__container__info-title-container__title"
+                >
+                  Portfolio - web estática
+                </h4>
+                <p class="card-project__container__info-title-container__info">
+                  Es una version mas simplificada de este portfolio, un ejemplo
+                  de una pagina web estática, también se puede aplicar a blogs,
+                  paginas de comercios/empresas para publicidad, etc.
+                </p>
+              </div>
+            </div>
+          </div>
+          <img
+            class="projects__container__siguiente"
+            src="http://drive.google.com/uc?export=view&id=1tsvj5sgE3N5eH-2stV829f1b55fV3Ezk"
+            alt="siguiente"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!--Contacto-->
+    <section id="contacto" class="contacto">
+      <div class="contacto__container">
+        <h3 class="contacto__container__title">Contacto</h3>
+        <div class="contenedor-form">
+          <form class="contenedor-form__form">
+            <div class="contenedor-form__fieldset">
+              <p class="campos-obligatorios">(*) Campos Obligatorios</p>
+              <label class="contenedor-form__label" for="name-input"
+                >Nombre *</label
+              >
+              <input
+                class="contenedor-form__input-text"
+                id="name-input"
+                name="nombre"
+                type="text"
+              />
+            </div>
+            <div class="contenedor-form__fieldset">
+              <label class="contenedor-form__label" for="email-input"
+                >E-mail *</label
+              >
+              <input
+                class="contenedor-form__input-text"
+                id="email-input"
+                name="email"
+                type="text"
+              />
+            </div>
+            <div class="contenedor-form__fieldset">
+              <label class="contenedor-form__label msj" for="message-input"
+                >Mensaje</label
+              >
+              <textarea
+                class="contenedor-form__textarea"
+                id="message-input"
+                name="msj"
+              ></textarea>
+            </div>
+            <div class="contenedor-form__button-section">
+              <button class="button">Enviar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!--footer-->
+    <div class="footer">
+      <img
+        class="footer__logo"
+        src="http://drive.google.com/uc?export=view&id=1USbpPNnGewGTRdpLQqCWFgXTH5S-zMn7"
+        alt="Logo Mariano dev"
+      />
+      <div class="footer__links">
+        <div class="footer__links__container">
+          <img
+            class="footer__links__container__logo"
+            src="http://drive.google.com/uc?export=view&id=1cvcesgKz1OaSPfBP8-Z37W69_CXIBSZG"
+            alt="Instagram"
+          />
+          <a
+            class="footer__links__container__link"
+            href="https://www.instagram.com/marianoraliuga13/"
+            target="_blank"
+            >Instagram</a
+          >
+        </div>
+        <div class="footer__links__container">
+          <img
+            class="footer__links__container__logo"
+            src="http://drive.google.com/uc?export=view&id=1HBJWI_sk-06PhdWS82txQ9xVx4QLbegD"
+            alt="Linkedin"
+          />
+          <a
+            class="footer__links__container__link"
+            href="https://www.linkedin.com/in/mariano-aguilar-a024b1240/"
+            target="_blank"
+            >Linkedin</a
+          >
+        </div>
+        <div class="footer__links__container">
+          <img
+            class="footer__links__container__logo"
+            src="http://drive.google.com/uc?export=view&id=1ppc_lqM0hICtwReW2nGNoeYbdApKA8RX"
+            alt="Github"
+          />
+          <a
+            class="footer__links__container__link"
+            href="https://github.com/MarianoAguilar13"
+            target="_blank"
+            >Github</a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
